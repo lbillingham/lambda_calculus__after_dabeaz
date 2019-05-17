@@ -1,0 +1,9 @@
+{
+  "test_numbers_kinda.py::test_MUL": true,
+  "test_numbers_kinda.py::test_THREE_with_incr": true,
+  "test_numbers_kinda.py::test_single_SUCC[num_fun0-next_num_fun0]": true,
+  "test_numbers_kinda.py::test_single_SUCC[num_fun1-next_num_fun1]": true,
+  "test_numbers_kinda.py::test_single_SUCC[num_fun2-next_num_fun2]": true,
+  "test_numbers_kinda.py::test_single_SUCC[num_fun3-next_num_fun3]": true,
+  "test_numbers_kinda.py::test_single_SUCC[num_fun4-next_num_fun4]": true
+}
