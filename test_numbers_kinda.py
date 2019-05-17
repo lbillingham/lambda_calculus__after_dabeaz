@@ -24,10 +24,10 @@ def test_nums_with_incr(num_fun, expected):
 @pytest.mark.parametrize(
     "num_fun0, num_fun1, expected",
     [
-        (ZERO, ONE, 0),
+        (ZERO, ONE, 1),
         (ONE, ZERO, 0),
         (FOUR, THREE, 81),
-        (THREE, FOUR, 63),
+        (THREE, FOUR, 64),
         (ONE, TWO, 2),
         (TWO, TWO, 4),
         (THREE, TWO, 8),
@@ -35,7 +35,7 @@ def test_nums_with_incr(num_fun, expected):
         (FIVE, TWO, 32),
     ],
 )
-def combining_is_pow(num_fun0, num_fun1, expected):
+def test_combining_is_pow(num_fun0, num_fun1, expected):
     assert show(num_fun0(num_fun1)) == expected
 
 

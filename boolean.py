@@ -22,7 +22,6 @@ def AND(x):
     """same as
         - return lambda y: x(y)(x)
     """
-    # could also x(y)(x)
     return lambda y: x(y)(FALSE)
 
 
