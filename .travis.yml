@@ -7,3 +7,7 @@ install:
 script:
   - flake8
   - pytest
+
+after_success:
+  - pip install codecov
+  - codecov -t f55d4c4d-a471-4815-96e3-3b140f8a99e2
